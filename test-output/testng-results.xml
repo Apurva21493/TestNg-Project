@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T07:36:24 IST" name="Suite" finished-at="2022-02-12T07:37:44 IST" duration-ms="80802">
+    <groups>
+    </groups>
+    <test started-at="2022-02-12T07:36:24 IST" name="Test" finished-at="2022-02-12T07:37:44 IST" duration-ms="80802">
+      <class name="TestCases.VerifySignupPage">
+        <test-method signature="fillSignupForm()[pri:0, instance:TestCases.VerifySignupPage@53ce1329]" started-at="2022-02-12T07:37:06 IST" name="fillSignupForm" finished-at="2022-02-12T07:37:44 IST" duration-ms="38292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillSignupForm -->
+      </class> <!-- TestCases.VerifySignupPage -->
+      <class name="TestCases.VerifyLoginPage">
+        <test-method signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLoginPage@342c38f8]" started-at="2022-02-12T07:36:24 IST" name="LaunchBrowser" data-provider="credentials" finished-at="2022-02-12T07:36:47 IST" duration-ms="23112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apurva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apurva123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLoginPage@342c38f8]" started-at="2022-02-12T07:36:47 IST" name="LaunchBrowser" data-provider="credentials" finished-at="2022-02-12T07:37:06 IST" duration-ms="19185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- TestCases.VerifyLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
